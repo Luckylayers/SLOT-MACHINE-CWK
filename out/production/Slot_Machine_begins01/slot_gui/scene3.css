@@ -1,0 +1,31 @@
+.root{
+    -fx-background-image:url("background.png") ;
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100%;
+
+}
+.text-area{
+
+    -fx-text-fill: #000000;
+    -fx-border-color: black;
+    -fx-control-inner-background: #ff6e21;
+    -fx-border-width: 0.2cm;
+    -fx-font-size: 0.6cm;
+}
+.label{
+    -fx-text-fill: #ff6e21;
+    -fx-background-color: black;
+    -fx-background-radius: 1cm;
+}
+
+.button{
+    -fx-font-size: 1cm;
+    -fx-text-fill: darkred;
+    -fx-background-radius: 1cm;
+    -fx-min-height: 50;
+    -fx-min-width: 125;
+    -fx-background-color:black;
+}
+.button:hover {
+    -fx-background-color:yellow;
+}

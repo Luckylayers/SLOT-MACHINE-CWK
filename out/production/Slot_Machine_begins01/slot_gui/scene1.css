@@ -1,0 +1,19 @@
+.root{
+    -fx-background-image:url("Presentation1.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100%;
+   // -fx-background-size: 1300 710;
+    //-fx-background-position: center center;
+}
+.button{
+    -fx-background-image: url("start.png");
+    -fx-background-radius: 1cm;
+    -fx-min-height: 50;
+    -fx-min-width: 125;
+    -fx-background-color:transparent;
+}
+
+
+.button:hover {
+    -fx-background-color:yellow;
+}
